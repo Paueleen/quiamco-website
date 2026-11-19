@@ -100,7 +100,6 @@ nav a:hover {
     background-color: #3E2B23;
 }
 
-/* Business Description */
 .about {
     background-color: #E8DCCB;
     padding: 65px 15%;
@@ -117,7 +116,6 @@ nav a:hover {
     margin: 0 auto;
 }
 
-/* Selected Products */
 .products {
     padding: 70px 8%;
     text-align: center;
@@ -153,7 +151,6 @@ nav a:hover {
     margin: 15px 0 8px;
 }
 
-/* Footer Section */
 footer {
     background-color: #3E2B23;
     color: #FFFFFF;
@@ -163,4 +160,35 @@ footer {
 
 footer h2 {
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 45px 6%;
+    }
+
+    .hero-content h2 {
+        font-size: 35px;
+    }
+
+    .about {
+        padding: 45px 8%;
+    }
+
+    .product-container {
+        flex-direction: column;
+    }
 }
