@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F3EA;
+    color: #3E2B23;
+    font-family: Georgia, serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #6F4E37;
+    font-size: 25px;
+    
+}
+
+header h1 span {
+    font-size: 15px;
+    font-weight: normal;
+}
