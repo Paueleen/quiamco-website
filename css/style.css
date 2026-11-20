@@ -87,10 +87,10 @@ nav a:hover {
 
 .cta-button {
     display: inline-block;
-    background-color: #12540b;
+    background-color: #539755;
     color: #FFFFFF;
     text-decoration: none;
-    padding: 12px 25px;
+    padding: 15px 28px;
     border-radius: 5px;
     transition: 0.3s;
 }
@@ -151,7 +151,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #12540b;
+    background-color: #539755;
     color: #FFFFFF;
     text-align: center;
     padding: 30px 20px;
