@@ -58,8 +58,8 @@ nav a:hover {
 
 .welcome,
 .section-label {
-    color: #A87952;
-    font-size: 13px;
+    color: #321804;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -100,7 +100,7 @@ nav a:hover {
 }
 
 .about {
-    background-color: #aa9f77;
+    background-color: #F5F5DC;
     padding: 65px 15%;
     text-align: center;
 }
